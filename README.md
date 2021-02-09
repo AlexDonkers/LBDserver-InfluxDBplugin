@@ -3,7 +3,7 @@ A plugin for the LBDserver, which integrates time-series data stored in InfluxDB
 The InfluxDBplugin has been created by Alex Donkers, Eindhoven University of Technology. 
 
 # How to install
-After correctly installing the [LBDserver](https://github.com/LBDserver), you could download the plugin [here](https://github.com/AlexDonkers/LBDserver-InfluxDBplugin/archive/main.zip). Paste the folder in the plugins folder of the LBDserver (LBDserver\front-react\src\plugins\) and add the following lines of code to LBDserver\front-react\src\plugins\pluginDictionary.js:
+After correctly installing the [LBDserver](https://github.com/LBDserver), you could download the plugin [here](https://github.com/AlexDonkers/LBDserver-InfluxDBplugin/archive/main.zip). Paste the entire folder (LBDserver-InfluxDBplugin) in the plugins folder of the LBDserver (LBDserver\front-react\src\plugins\) and add the following lines of code to LBDserver\front-react\src\plugins\pluginDictionary.js:
 
 On top of the file:
 ```
