@@ -32,3 +32,4 @@ Please visit the [LBDserver](https://github.com/LBDserver) github for more infor
 I'm planning to create interaction with the viewer, so that a user could click on elements and an InfluxDB query will result the temperature of the room these elements are in.
 I'm also working on a SPARQL tab, where the user could query a sensor using SPARQL after which an InfluxDB query will result the most recent sensor value in the database.
 
+If you have some ideas to improve this tool, please raise an issue.
