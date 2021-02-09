@@ -15,6 +15,8 @@ in const pluginDictionary = {
 InfluxDBplugin: LBDserver-InfluxDBplugin-main,
 ```
 
+To get the chart functionality working, you probably need to install [chart.js](https://www.chartjs.org/docs/latest/getting-started/installation.html) using ```npm install chart.js --save```
+
 # How to use
 The plugin sends GET requests to an InfluxDB database running on localhost:8086 (default). You can download InfluxDB [here](https://portal.influxdata.com/downloads/). More documentation on using InfluxDB could be found [here](https://docs.influxdata.com/influxdb/v1.8/tools/shell/).
 
