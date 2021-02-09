@@ -22,7 +22,7 @@ The plugin has 3 tabs, which allow you to query data in different ways.
 1. The first tab needs a [database](https://docs.influxdata.com/influxdb/v1.8/concepts/glossary/#database) and a property (refered to as '[measurement](https://docs.influxdata.com/influxdb/v1.8/concepts/glossary/#measurement) in InfluxDB). 
 2. The second tab requires a [database](https://docs.influxdata.com/influxdb/v1.8/concepts/glossary/#database) and an [InfluxQL](https://docs.influxdata.com/influxdb/v1.8/query_language/explore-data/#the-basic-select-statement) query. Example:
 ```SELECT * FROM Office_Temperature LIMIT 10)``` 
-3. The second tab requires similar input as the first tab, but returns the latest 10 values in a chart.
+3. The third tab requires similar input as the first tab, but returns the latest 10 values in a chart.
 
 ![snippet of the plugin](https://i.ibb.co/ZH8sQ59/Influx-DBplugin.png)
 
